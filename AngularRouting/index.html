@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/angular.js"></script>
+    <script src="js/angularroute.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/main.js"></script>
+</head>
+<body ng-app="app">
+    <div ng-controller="control">
+    <h1>Angular Routing</h1>
+    <p>We can build Single Page Application (SPA) with AngularJS. It is a web app that loads a single HTML page and dynamically updates that page as the user interacts with the web app.
+
+        AngularJS supports SPA using routing module ngRoute. This routing module acts based on the url. When a user requests a specific url, the routing engine captures that url and renders the view based on the defined routing rules.
+        
+        Let's see how to implement simple routing in AngularJS application.
+    </p>
+    <h2>Routing Example:</h2>
+
+    <a href = "#!/">Main</a><br><br>
+    <a href = "#!one">Route 1</a><br><br>
+    <a href = "#!two/">Route 2</a><br><br>
+   
+    <div ng-view></div>
+    </div>
+</body>
+</html>

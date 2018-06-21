@@ -1,0 +1,23 @@
+{
+  "name": "bower",
+  "authors": [
+    "atindra21 <atindrasinha58@gmail.com>"
+  ],
+  "description": "This contains the configuration of client-side libraries",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.7.0",
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "font-awesome": "fontawesome#^5.0.13"
+  }
+}

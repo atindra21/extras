@@ -1,0 +1,23 @@
+{
+	"name": "npm-modules",
+	"version": "1.0.0",
+	"description": "This package consists of modules",
+	"main": "app.js",
+	"scripts": {
+		"test": "karma start karma.conf.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/atindra21/noderepo.git"
+	},
+	"author": "Atindra",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/atindra21/noderepo/issues"
+	},
+	"homepage": "https://github.com/atindra21/noderepo#readme",
+	"dependencies": {
+		"express": "^4.16.3",
+		"karma": "^2.0.2"
+	}
+}
